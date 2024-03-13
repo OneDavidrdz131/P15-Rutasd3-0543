@@ -27,6 +27,12 @@ class Pantallaini_0543 extends StatelessWidget {
               }, //Fin de  opressed
               child: const Text("Mover a pantalla2"),
             ),
+            ElevatedButton(
+              onPressed: () {
+                Navigator.pushNamed(context, "/pantalla3_0543");
+              }, //Fin de  opressed
+              child: const Text("Mover a pantalla3"),
+            ),
           ],
         ),
       ),

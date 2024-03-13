@@ -13,15 +13,17 @@ class Pantalla1_0543 extends StatelessWidget {
         title: const Text('Pantalla 1 Rodriguez 0543'),
         backgroundColor: Color(0xff003b57),
       ),
-      body: const Center(
-        child: Card(
-          color: Color(0xff19afdc),
-          child: Padding(
-            padding: EdgeInsets.all(50), //Pading
-            child: Text(
-              "Tarjeta 1 Rodriguez 0543",
-              style: TextStyle(fontSize: 30, color: Color(0xff012c5e)),
-            ),
+      body: Center(
+        child: Container(
+          color: Color(0xff0a5182),
+          width: 300,
+          height: 300,
+          padding: const EdgeInsets.all(32),
+          margin: const EdgeInsets.symmetric(vertical: 16, horizontal: 32),
+          alignment: Alignment.center,
+          child: const Text(
+            'Tarjeta 1 Rodriguez 0543',
+            style: TextStyle(fontSize: 30, color: Colors.white),
           ),
         ),
       ),

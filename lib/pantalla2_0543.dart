@@ -14,19 +14,16 @@ class Pantalla2_0543 extends StatelessWidget {
       ),
       body: Center(
         child: Container(
-          color: const Color(0xff022993),
-          width: double.infinity,
-          height: 200,
-          child: const Card(
-            color: Color(0xff11c5cb),
-            margin: EdgeInsets.all(32),
-            child: Padding(
-              padding: EdgeInsets.all(16),
-              child: Text(
-                "Tarjeta2 Rodriguez 0543",
-                style: TextStyle(fontSize: 20, color: Color(0xff000000)),
-              ),
-            ),
+          color: Color(0xff022993),
+          constraints: const BoxConstraints(
+            minHeight: 200,
+            minWidth: 300,
+            maxHeight: 400,
+            maxWidth: 500,
+          ),
+          child: const Text(
+            "Tarjeta 2 rodriguez 0543",
+            style: TextStyle(fontSize: 30, color: Color(0xffffffff)),
           ),
         ),
       ),
